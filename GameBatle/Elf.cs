@@ -17,26 +17,4 @@ namespace GameBatle
         internal Armor Armor { get => armor; set => armor = value; }
     }
 
-    internal class Bow : Weapon
-    {
-        private String material;
-
-        public string Material { get => material; set => material = value; }
-    }
-
-    internal class Dagger : Weapon
-    {
-        private String ability;
-        private int number;
-
-        public string Ability { get => ability; set => ability = value; }
-        public int Number { get => number; set => number = value; }
-    }
-
-    internal class Mantle : Armor
-    {
-        private String ability;
-
-        public string Ability { get => ability; set => ability = value; }
-    }
 }

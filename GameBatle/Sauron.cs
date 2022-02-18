@@ -17,26 +17,4 @@ namespace GameBatle
         internal Armor Armor { get => armor; set => armor = value; }
     }
 
-    internal class Ring : Weapon
-    {
-        private String ability;
-        private String hand;
-
-        public string Ability { get => ability; set => ability = value; }
-        public string Hand { get => hand; set => hand = value; }
-    }
-
-    internal class Mace2 : Weapon
-    {
-        private String hand;
-
-        public string Hand { get => hand; set => hand = value; }
-    }
-
-    internal class ArmorOfGod : Armor
-    {
-        private string rarity;
-
-        public string Rarity { get => rarity; set => rarity = value; }
-    }
 }

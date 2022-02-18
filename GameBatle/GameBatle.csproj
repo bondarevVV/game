@@ -43,17 +43,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ability.cs" />
     <Compile Include="Armor.cs" />
+    <Compile Include="ArmorOfGod.cs" />
     <Compile Include="Azog.cs" />
+    <Compile Include="Bow.cs" />
+    <Compile Include="ChainArmor.cs" />
+    <Compile Include="Dagger.cs" />
     <Compile Include="Elf.cs" />
     <Compile Include="Gnome.cs" />
+    <Compile Include="Hammer.cs" />
+    <Compile Include="Healmet.cs" />
     <Compile Include="Human.cs" />
     <Compile Include="IAction.cs" />
     <Compile Include="Loot.cs" />
+    <Compile Include="Mace.cs" />
+    <Compile Include="Mace2.cs" />
+    <Compile Include="Mantle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ring.cs" />
     <Compile Include="Saruman.cs" />
     <Compile Include="Sauron.cs" />
+    <Compile Include="Shield.cs" />
+    <Compile Include="Staff.cs" />
+    <Compile Include="Sword.cs" />
     <Compile Include="Unit.cs" />
     <Compile Include="Weapon.cs" />
   </ItemGroup>

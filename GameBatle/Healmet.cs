@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace GameBatle
 {
-    internal class Azog : Unit
+    internal class Healmet : Armor
     {
-        private Weapon weapon;
+        private String create;
 
-        internal Weapon Weapon { get => weapon; set => weapon = value; }
+        public string Create { get => create; set => create = value; }
     }
-
 }

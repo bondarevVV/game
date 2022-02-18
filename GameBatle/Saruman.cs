@@ -14,20 +14,4 @@ namespace GameBatle
         internal Weapon Weapon { get => weapon; set => weapon = value; }
         internal Ability Magic { get => magic; set => magic = value; }
     }
-
-    internal class Ability
-    {
-        private int damage;
-        private string name;
-
-        public int Damage { get => damage; set => damage = value; }
-        public string Name { get => name; set => name = value; }
-    }
-
-    internal class Staff : Weapon
-    {
-        private String ability;
-
-        public string Ability { get => ability; set => ability = value; }
-    }
 }

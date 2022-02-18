@@ -16,25 +16,4 @@ namespace GameBatle
         internal Armor Armor1 { get => armor1; set => armor1 = value; }
         internal Armor Armor2 { get => armor2; set => armor2 = value; }
     }
-
-    internal class Hammer : Weapon
-    {
-        private String create;
-
-        public string Create { get => create; set => create = value; }
-    }
-
-    internal class Healmet : Armor
-    {
-        private String create;
-
-        public string Create { get => create; set => create = value; }
-    }
-
-    internal class Shield : Armor
-    {
-        private String ability;
-
-        public string Ability { get => ability; set => ability = value; }
-    }
 }
